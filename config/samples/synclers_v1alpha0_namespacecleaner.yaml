@@ -1,0 +1,7 @@
+apiVersion: synclers.synclair.syndikate.io/v1alpha0
+kind: NamespaceCleaner
+metadata:
+  name: namespacecleaner-sample
+spec:
+  # Add fields here
+  foo: bar

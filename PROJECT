@@ -1,0 +1,10 @@
+domain: synclair.syndikate.io
+repo: synclair
+resources:
+- group: synclers
+  kind: SecretSyncler
+  version: v1alpha0
+- group: synclers
+  kind: NamespaceCleaner
+  version: v1alpha0
+version: "2"
